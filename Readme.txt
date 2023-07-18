@@ -22,4 +22,3 @@ User Credential
 Username: test@test.com
 Password: Test@123
 
-you can use it
