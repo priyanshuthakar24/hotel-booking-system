@@ -13,6 +13,7 @@ $hbmsaid=$_SESSION['hbmsaid'];
  $catdes=$_POST['catdes'];
  $price=$_POST['price'];
 
+	  
 $sql="insert into tblcategory(CategoryName,Description,Price)values(:cname,:catdes,:price)";
 $query=$dbh->prepare($sql);
 $query->bindParam(':cname',$cname,PDO::PARAM_STR);
