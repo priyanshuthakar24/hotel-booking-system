@@ -32,6 +32,7 @@ echo '<script>alert("Contact us has been updated")</script>';
 <head>
 <title>Bookrooms | Contact Us</title>
 
+	
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
