@@ -17,7 +17,6 @@ $hbmsaid=$_SESSION['hbmsaid'];
  $roomdes=$_POST['roomdes'];
  $nobed=$_POST['nobed'];
  
- 
 $img=$_FILES["image"]["name"];
 $extension = substr($img,strlen($img)-4,strlen($img));
 $allowed_extensions = array(".jpg","jpeg",".png",".gif");
