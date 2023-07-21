@@ -8,6 +8,7 @@ if (strlen($_SESSION['hbmsaid']==0)) {
      if(isset($_POST['submit']))
   {
 
+	  
 $hbmsaid=$_SESSION['hbmsaid'];
  $pagetitle=$_POST['pagetitle'];
 $pagedes=$_POST['pagedes'];
