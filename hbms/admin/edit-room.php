@@ -8,6 +8,7 @@ if (strlen($_SESSION['hbmsaid']==0)) {
     if(isset($_POST['submit']))
   {
 
+	  
 $hbmsaid=$_SESSION['hbmsaid'];
  $roomtype=$_POST['roomtype'];
  $roomname=$_POST['roomname'];
