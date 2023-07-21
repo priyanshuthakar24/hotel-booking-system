@@ -8,8 +8,6 @@ if (strlen($_SESSION['hbmsaid']==0)) {
       if(isset($_POST['submit']))
   {
 
-
-
     $bookingid=$_GET['bookingid'];
     $status=$_POST['status'];
    $remark=$_POST['remark'];
