@@ -18,6 +18,7 @@ if(!in_array($extension,$allowed_extensions))
 echo "<script>alert('Facility image has Invalid format. Only jpg / jpeg/ png /gif format allowed');</script>";
 }
 else
+	
 {
 
 $img=md5($img).time().$extension;
