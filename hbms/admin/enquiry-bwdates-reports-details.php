@@ -7,6 +7,7 @@ if (strlen($_SESSION['hbmsaid']==0)) {
   } else{
   
 ?>
+	
 <!DOCTYPE HTML>
 <html>
 <head>
