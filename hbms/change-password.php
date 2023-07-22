@@ -5,7 +5,8 @@ include('includes/dbconnection.php');
 error_reporting(0);
 if (strlen($_SESSION['hbmsuid']==0)) {
   header('location:logout.php');
-  } else{
+  } 
+else{
 if(isset($_POST['submit']))
 {
 $uid=$_SESSION['hbmsuid'];
