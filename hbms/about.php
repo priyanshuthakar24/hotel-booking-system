@@ -28,6 +28,7 @@ include('includes/dbconnection.php');
   </script>
 
 </head>
+	
 <body>
 		<!--header-->
 			<div class="header head-top">
