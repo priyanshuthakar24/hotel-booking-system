@@ -55,6 +55,7 @@ echo "<script>window.location.href ='contact.php'</script>";
         pager: true,
       });
     });
+	 
   </script>
 
 </head>
