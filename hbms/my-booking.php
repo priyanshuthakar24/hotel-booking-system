@@ -6,6 +6,7 @@ if (strlen($_SESSION['hbmsuid']==0)) {
   header('location:logout.php');
   } else{
 ?>
+	
 <!DOCTYPE HTML>
 <html>
 <head>
