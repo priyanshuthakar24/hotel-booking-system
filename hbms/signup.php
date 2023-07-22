@@ -14,6 +14,7 @@ if(isset($_POST['submit']))
     $query-> bindParam(':email', $email, PDO::PARAM_STR);
     $query-> execute();
     $results = $query -> fetchAll(PDO::FETCH_OBJ);
+	  
 if($query -> rowCount() == 0)
 {
 $sql="Insert Into tbluser(FullName,MobileNumber,Email,Password)Values(:fname,:mobno,:email,:password)";
