@@ -20,7 +20,8 @@ $booknum=mt_rand(100000000, 999999999);
  $cdate=date('Y-m-d');
 if($checkindate <  $cdate){
  echo '<script>alert("Check in date must be greater than current date")</script>';
-} else if($checkindate > $checkoutdate)
+} 
+else if($checkindate > $checkoutdate)
 {
 echo '<script>alert("Check out date must be equal to / greater than  check in date")</script>';	
 } else {
