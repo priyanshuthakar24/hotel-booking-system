@@ -6,8 +6,6 @@ error_reporting(0);
 
  if(isset($_POST['submit']))
   {
-
-
  $name=$_POST['name'];
     $phone=$_POST['phone'];
     $email=$_POST['email'];
