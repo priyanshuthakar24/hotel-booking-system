@@ -29,6 +29,7 @@ if (strlen($_SESSION['hbmsuid']==0)) {
         pager: true,
       });
     });
+	 
   </script>
 
 </head>
