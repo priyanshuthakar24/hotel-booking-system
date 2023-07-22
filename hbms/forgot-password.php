@@ -15,6 +15,7 @@ $query-> bindParam(':mobile', $mobile, PDO::PARAM_STR);
 $query-> execute();
 $results = $query -> fetchAll(PDO::FETCH_OBJ);
 if($query -> rowCount() > 0)
+	
 {
 $con="update tbluser set Password=:newpassword where Email=:email and MobileNumber=:mobile";
 $chngpwd1 = $dbh->prepare($con);
