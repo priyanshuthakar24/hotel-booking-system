@@ -4,7 +4,8 @@ session_start();
 error_reporting(0);
 if (strlen($_SESSION['hbmsuid']==0)) {
   header('location:logout.php');
-  } else{
+  } else
+{
 ?>
 	
 <!DOCTYPE HTML>
