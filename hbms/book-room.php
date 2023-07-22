@@ -8,7 +8,6 @@ if (strlen($_SESSION['hbmsuid']==0)) {
 
  if(isset($_POST['submit']))
   {
-
 $booknum=mt_rand(100000000, 999999999);
  $rid=intval($_GET['rmid']);
  $uid=$_SESSION['hbmsuid'];
